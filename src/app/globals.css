@@ -31,3 +31,10 @@ body {
     text-wrap: balance;
   }
 }
+
+.container {
+  max-width: 1200px; /* adjust as needed */
+  margin: 0 auto;
+  min-height: 10vh;
+  position: relative;
+}
