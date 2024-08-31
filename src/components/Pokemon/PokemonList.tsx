@@ -91,8 +91,8 @@ const PokemonList: React.FC<{ searchTerm: string }> = ({ searchTerm }) => {
   );
 
   return (
-    <div>
-      <div className="flex justify-between mb-4">
+    <div className="mx-4">
+      <div className="flex justify-between mb-4 mx-4">
         <button
           onClick={handlePreviousPage}
           disabled={currentPage === 1}
